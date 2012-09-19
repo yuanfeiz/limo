@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/1664/trunk/example
+END
+rfcomm-echo.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1567/trunk/example/rfcomm-echo.c
+END
+test.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1558/trunk/example/test.c
+END
+rfcomm-test.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1526/trunk/example/rfcomm-test.c
+END
+inquiry.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1578/trunk/example/inquiry.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1513/trunk/example/Makefile.in
+END
+l2cap-server.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1568/trunk/example/l2cap-server.c
+END
+compat-svn.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1402/trunk/example/compat-svn.c
+END
+rfcomm-cat.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1402/trunk/example/rfcomm-cat.c
+END
+l2cap-throughput.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1558/trunk/example/l2cap-throughput.c
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/1473/trunk/docs
+END
+extract.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1237/trunk/docs/extract.py
+END
+SDP.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1473/trunk/docs/SDP.txt
+END
+rfcomm-channel.gv
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1277/trunk/docs/rfcomm-channel.gv
+END
+StateMachineExtraction.txt
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1237/trunk/docs/StateMachineExtraction.txt
+END
+rfcomm-multiplexer.gv
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1236/trunk/docs/rfcomm-multiplexer.gv
+END
+lamp.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1237/trunk/docs/lamp.c
+END
+l2cap.gv
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1282/trunk/docs/l2cap.gv
+END

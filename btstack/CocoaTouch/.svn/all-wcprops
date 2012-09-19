@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/1649/trunk/CocoaTouch
+END
+BTstackCocoa-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/298/trunk/CocoaTouch/BTstackCocoa-Info.plist
+END
+BTstackCocoa_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/298/trunk/CocoaTouch/BTstackCocoa_Prefix.pch
+END
+TestBTstackManager-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/562/trunk/CocoaTouch/TestBTstackManager-Info.plist
+END

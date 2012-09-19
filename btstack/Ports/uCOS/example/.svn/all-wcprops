@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1581/trunk/Ports/uCOS/example
+END
+vector_funcs.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1581/trunk/Ports/uCOS/example/vector_funcs.c
+END
+project.settings
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1530/trunk/Ports/uCOS/example/project.settings
+END
+linker.lds
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1581/trunk/Ports/uCOS/example/linker.lds
+END
+vector_table.s
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1581/trunk/Ports/uCOS/example/vector_table.s
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1530/trunk/Ports/uCOS/example/Makefile
+END

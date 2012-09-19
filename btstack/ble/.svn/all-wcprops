@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/1666/trunk/ble
+END
+l2cap_le.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/ble/l2cap_le.c
+END
+att.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1666/trunk/ble/att.c
+END
+compile-gatt.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1606/trunk/ble/compile-gatt.py
+END
+att.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1666/trunk/ble/att.h
+END

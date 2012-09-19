@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1681/trunk/PrefsBundle
+END
+BluetoothTableViewAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1613/trunk/PrefsBundle/BluetoothTableViewAdapter.h
+END
+BluetoothController.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1071/trunk/PrefsBundle/BluetoothController.h
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1071/trunk/PrefsBundle/control
+END
+BluetoothController.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1644/trunk/PrefsBundle/BluetoothController.m
+END
+BluetoothTableViewAdapter.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1658/trunk/PrefsBundle/BluetoothTableViewAdapter.m
+END
+PrefsViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1681/trunk/PrefsBundle/PrefsViewController.m
+END
+entry.plist
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1119/trunk/PrefsBundle/entry.plist
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1644/trunk/PrefsBundle/Makefile
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/src
+END
+hal_tick.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/src/hal_tick.c
+END
+hal_uart_dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/src/hal_uart_dma.c
+END
+hal_cpu.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/src/hal_cpu.c
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1677/trunk/eZ430-RF2560/example
+END
+spp_counter.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/example/spp_counter.c
+END
+led_counter.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/example/led_counter.c
+END
+spp_accel.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/example/spp_accel.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/example/config.h
+END
+spp_flowcontrol.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1586/trunk/eZ430-RF2560/example/spp_flowcontrol.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1677/trunk/eZ430-RF2560/example/Makefile
+END

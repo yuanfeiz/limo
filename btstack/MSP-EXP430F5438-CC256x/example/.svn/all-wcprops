@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/1674/trunk/MSP-EXP430F5438-CC256x/example
+END
+spp_counter.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1514/trunk/MSP-EXP430F5438-CC256x/example/spp_counter.c
+END
+led_counter.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1514/trunk/MSP-EXP430F5438-CC256x/example/led_counter.c
+END
+hid_demo.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1507/trunk/MSP-EXP430F5438-CC256x/example/hid_demo.c
+END
+spp_accel.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1514/trunk/MSP-EXP430F5438-CC256x/example/spp_accel.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/example/config.h
+END
+spp_flowcontrol.c
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1514/trunk/MSP-EXP430F5438-CC256x/example/spp_flowcontrol.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1674/trunk/MSP-EXP430F5438-CC256x/example/Makefile
+END

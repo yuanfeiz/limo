@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1664/trunk/example/WiiMoteOpenGLDemo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/408/trunk/example/WiiMoteOpenGLDemo/main.m
+END
+rotation.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1029/trunk/example/WiiMoteOpenGLDemo/rotation.c
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1075/trunk/example/WiiMoteOpenGLDemo/control
+END
+wiimote_coords.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/354/trunk/example/WiiMoteOpenGLDemo/wiimote_coords.txt
+END
+package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/406/trunk/example/WiiMoteOpenGLDemo/package.sh
+END
+WiiMoteOpenGLDemo_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/354/trunk/example/WiiMoteOpenGLDemo/WiiMoteOpenGLDemo_Prefix.pch
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1655/trunk/example/WiiMoteOpenGLDemo/Makefile
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1661/trunk/MSP-EXP430F5438-CC256x/example-ble
+END
+ble_server.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1606/trunk/MSP-EXP430F5438-CC256x/example-ble/ble_server.c
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1606/trunk/MSP-EXP430F5438-CC256x/example-ble/config.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1661/trunk/MSP-EXP430F5438-CC256x/example-ble/Makefile
+END
+profile.gatt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1606/trunk/MSP-EXP430F5438-CC256x/example-ble/profile.gatt
+END

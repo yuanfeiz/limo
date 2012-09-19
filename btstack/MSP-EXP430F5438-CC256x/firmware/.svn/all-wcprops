@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1503/trunk/MSP-EXP430F5438-CC256x/firmware
+END
+hal_lcd_fonts.c
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_lcd_fonts.c
+END
+hal_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_util.c
+END
+hal_lcd_fonts.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_lcd_fonts.h
+END
+hal_util.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_util.h
+END
+hal_compat.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_compat.c
+END
+hal_adc.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_adc.c
+END
+hal_board.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1499/trunk/MSP-EXP430F5438-CC256x/firmware/hal_board.c
+END
+UserExperienceGraphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/UserExperienceGraphics.h
+END
+hal_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_compat.h
+END
+hal_usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_usb.c
+END
+hal_adc.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_adc.h
+END
+hal_board.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_board.h
+END
+hal_usb.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_usb.h
+END
+hal_lcd.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1503/trunk/MSP-EXP430F5438-CC256x/firmware/hal_lcd.c
+END
+hal_lcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/firmware/hal_lcd.h
+END

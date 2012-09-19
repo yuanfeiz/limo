@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1477/trunk/CocoaTouch/include/BTstack
+END
+BTDiscoveryViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/614/trunk/CocoaTouch/include/BTstack/BTDiscoveryViewController.h
+END
+BTInquiryViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/477/trunk/CocoaTouch/include/BTstack/BTInquiryViewController.h
+END
+BTDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/887/trunk/CocoaTouch/include/BTstack/BTDevice.h
+END
+BTstackManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1477/trunk/CocoaTouch/include/BTstack/BTstackManager.h
+END

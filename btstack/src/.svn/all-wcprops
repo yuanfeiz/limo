@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/1680/trunk/src
+END
+platform_iphone.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1666/trunk/src/platform_iphone.m
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1666/trunk/src/utils.c
+END
+memory_pool.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1666/trunk/src/memory_pool.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1635/trunk/src/Makefile.in
+END
+linked_list.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1666/trunk/src/linked_list.c
+END
+l2cap.c
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1680/trunk/src/l2cap.c
+END
+daemon.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1680/trunk/src/daemon.c
+END
+l2cap.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1666/trunk/src/l2cap.h
+END
+socket_connection.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/socket_connection.c
+END
+hci_cmds.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/src/hci_cmds.c
+END
+hci_transport_h4.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1666/trunk/src/hci_transport_h4.c
+END
+hci_transport_h5.c
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1666/trunk/src/hci_transport_h5.c
+END
+hci_transport_h4_ehcill_dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1666/trunk/src/hci_transport_h4_ehcill_dma.c
+END
+socket_connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/socket_connection.h
+END
+get_version.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1404/trunk/src/get_version.sh
+END
+run_loop_posix.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1679/trunk/src/run_loop_posix.c
+END
+btstack_memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1672/trunk/src/btstack_memory.c
+END
+sdp_util.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/src/sdp_util.c
+END
+rfcomm.c
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1680/trunk/src/rfcomm.c
+END
+hci_transport.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1666/trunk/src/hci_transport.h
+END
+sdp.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1666/trunk/src/sdp.c
+END
+hci_dump.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/src/hci_dump.c
+END
+rfcomm.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1666/trunk/src/rfcomm.h
+END
+btstack_memory.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1666/trunk/src/btstack_memory.h
+END
+sdp.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1666/trunk/src/sdp.h
+END
+btstack.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1666/trunk/src/btstack.c
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1666/trunk/src/debug.h
+END
+hci_transport_h4_dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1666/trunk/src/hci_transport_h4_dma.c
+END
+run_loop_private.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1666/trunk/src/run_loop_private.h
+END
+l2cap_signaling.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1666/trunk/src/l2cap_signaling.c
+END
+hci_dump.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/src/hci_dump.h
+END
+run_loop.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/src/run_loop.c
+END
+Makefile.am.disabled
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/263/trunk/src/Makefile.am.disabled
+END
+btstack_memory_generator.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1672/trunk/src/btstack_memory_generator.py
+END
+l2cap_signaling.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1666/trunk/src/l2cap_signaling.h
+END
+hci.c
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1680/trunk/src/hci.c
+END
+run_loop_embedded.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/run_loop_embedded.c
+END
+remote_device_db_memory.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1666/trunk/src/remote_device_db_memory.c
+END
+hci.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/1666/trunk/src/hci.h
+END
+bt_control.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/1666/trunk/src/bt_control.h
+END
+run_loop_cocoa.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1666/trunk/src/run_loop_cocoa.m
+END
+bt_control_iphone.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/bt_control_iphone.h
+END
+hci_transport_h4_iphone.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1666/trunk/src/hci_transport_h4_iphone.c
+END
+bt_control_iphone.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/bt_control_iphone.m
+END
+remote_device_db.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1666/trunk/src/remote_device_db.h
+END
+hci_transport_usb.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/1666/trunk/src/hci_transport_usb.c
+END
+platform_iphone.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1666/trunk/src/platform_iphone.h
+END
+remote_device_db_iphone.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1666/trunk/src/remote_device_db_iphone.m
+END

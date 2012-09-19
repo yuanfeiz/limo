@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1666/trunk/chipset-cc256x
+END
+bt_control_cc256x.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1666/trunk/chipset-cc256x/bt_control_cc256x.c
+END
+bt_control_cc256x.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1666/trunk/chipset-cc256x/bt_control_cc256x.h
+END
+convert_bts_init_scripts.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1594/trunk/chipset-cc256x/convert_bts_init_scripts.py
+END
+create_cc256x_init_scripts.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1502/trunk/chipset-cc256x/create_cc256x_init_scripts.py
+END

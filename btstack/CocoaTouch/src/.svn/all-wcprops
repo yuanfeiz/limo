@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1649/trunk/CocoaTouch/src
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/408/trunk/CocoaTouch/src/main.m
+END
+BTDevice.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1597/trunk/CocoaTouch/src/BTDevice.m
+END
+BTInquiryViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/1620/trunk/CocoaTouch/src/BTInquiryViewController.m
+END
+TestBTstackManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1026/trunk/CocoaTouch/src/TestBTstackManager.m
+END
+BTstackManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1649/trunk/CocoaTouch/src/BTstackManager.m
+END
+BTstackCocoaAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/408/trunk/CocoaTouch/src/BTstackCocoaAppDelegate.h
+END
+BTDiscoveryViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1297/trunk/CocoaTouch/src/BTDiscoveryViewController.m
+END
+BTstackCocoaAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/408/trunk/CocoaTouch/src/BTstackCocoaAppDelegate.m
+END
+TestBTstackManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/584/trunk/CocoaTouch/src/TestBTstackManager.h
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/src
+END
+hal_tick.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/src/hal_tick.c
+END
+hal_uart_dma.c
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/src/hal_uart_dma.c
+END
+hal_cpu.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1494/trunk/MSP-EXP430F5438-CC256x/src/hal_cpu.c
+END

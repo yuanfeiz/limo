@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 24
+/svn/!svn/ver/1681/trunk
+END
+TODO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/1283/trunk/TODO.txt
+END
+package.sh
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/1653/trunk/package.sh
+END
+config-cydia.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1650/trunk/config-cydia.sh
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1631/trunk/configure.in
+END
+bootstrap.sh
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1017/trunk/bootstrap.sh
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1079/trunk/Makefile.am
+END
+addCopyright.sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/408/trunk/addCopyright.sh
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/113/trunk/config.guess
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/116/trunk/ltmain.sh
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/113/trunk/config.sub
+END
