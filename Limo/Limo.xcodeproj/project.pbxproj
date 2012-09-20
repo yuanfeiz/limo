@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F9A30941609941D00BE0CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30931609941D00BE0CAF /* UIKit.framework */; };
+		6F9A30961609941D00BE0CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30951609941D00BE0CAF /* Foundation.framework */; };
+		6F9A30981609941D00BE0CAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30971609941D00BE0CAF /* CoreGraphics.framework */; };
+		6F9A309E1609941D00BE0CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A309C1609941D00BE0CAF /* InfoPlist.strings */; };
+		6F9A30A01609941D00BE0CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A309F1609941D00BE0CAF /* main.m */; };
+		6F9A30A41609941D00BE0CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30A31609941D00BE0CAF /* AppDelegate.m */; };
+		6F9A30A71609941D00BE0CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30A61609941D00BE0CAF /* ViewController.m */; };
+		6F9A30AA1609941D00BE0CAF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A30A81609941D00BE0CAF /* ViewController.xib */; };
+		6F9A30B11609945800BE0CAF /* libBTstack.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30B01609945800BE0CAF /* libBTstack.dylib */; };
+		6F9A30B61609947800BE0CAF /* BTstackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30B51609947800BE0CAF /* BTstackManager.m */; };
+		6F9A30B9160996B900BE0CAF /* Limo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30B8160996B900BE0CAF /* Limo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F9A308F1609941D00BE0CAF /* Limo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9A30931609941D00BE0CAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6F9A30951609941D00BE0CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F9A30971609941D00BE0CAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6F9A309B1609941D00BE0CAF /* Limo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Limo-Info.plist"; sourceTree = "<group>"; };
+		6F9A309D1609941D00BE0CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F9A309F1609941D00BE0CAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F9A30A11609941D00BE0CAF /* Limo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Limo-Prefix.pch"; sourceTree = "<group>"; };
+		6F9A30A21609941D00BE0CAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6F9A30A31609941D00BE0CAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F9A30A51609941D00BE0CAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6F9A30A61609941D00BE0CAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6F9A30A91609941D00BE0CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6F9A30B01609945800BE0CAF /* libBTstack.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libBTstack.dylib; sourceTree = "<group>"; };
+		6F9A30B41609947800BE0CAF /* BTstackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTstackManager.h; sourceTree = "<group>"; };
+		6F9A30B51609947800BE0CAF /* BTstackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTstackManager.m; sourceTree = "<group>"; };
+		6F9A30B7160996B900BE0CAF /* Limo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Limo.h; sourceTree = "<group>"; };
+		6F9A30B8160996B900BE0CAF /* Limo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Limo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F9A308C1609941D00BE0CAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9A30941609941D00BE0CAF /* UIKit.framework in Frameworks */,
+				6F9A30961609941D00BE0CAF /* Foundation.framework in Frameworks */,
+				6F9A30981609941D00BE0CAF /* CoreGraphics.framework in Frameworks */,
+				6F9A30B11609945800BE0CAF /* libBTstack.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9A30841609941D00BE0CAF = {
+			isa = PBXGroup;
+			children = (
+				6F9A30991609941D00BE0CAF /* Limo */,
+				6F9A30921609941D00BE0CAF /* Frameworks */,
+				6F9A30901609941D00BE0CAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F9A30901609941D00BE0CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A308F1609941D00BE0CAF /* Limo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F9A30921609941D00BE0CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A30B01609945800BE0CAF /* libBTstack.dylib */,
+				6F9A30931609941D00BE0CAF /* UIKit.framework */,
+				6F9A30951609941D00BE0CAF /* Foundation.framework */,
+				6F9A30971609941D00BE0CAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F9A30991609941D00BE0CAF /* Limo */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A30B7160996B900BE0CAF /* Limo.h */,
+				6F9A30B8160996B900BE0CAF /* Limo.m */,
+				6F9A30B41609947800BE0CAF /* BTstackManager.h */,
+				6F9A30B51609947800BE0CAF /* BTstackManager.m */,
+				6F9A30A21609941D00BE0CAF /* AppDelegate.h */,
+				6F9A30A31609941D00BE0CAF /* AppDelegate.m */,
+				6F9A30A51609941D00BE0CAF /* ViewController.h */,
+				6F9A30A61609941D00BE0CAF /* ViewController.m */,
+				6F9A30A81609941D00BE0CAF /* ViewController.xib */,
+				6F9A309A1609941D00BE0CAF /* Supporting Files */,
+			);
+			path = Limo;
+			sourceTree = "<group>";
+		};
+		6F9A309A1609941D00BE0CAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9A309B1609941D00BE0CAF /* Limo-Info.plist */,
+				6F9A309C1609941D00BE0CAF /* InfoPlist.strings */,
+				6F9A309F1609941D00BE0CAF /* main.m */,
+				6F9A30A11609941D00BE0CAF /* Limo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F9A308E1609941D00BE0CAF /* Limo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F9A30AD1609941D00BE0CAF /* Build configuration list for PBXNativeTarget "Limo" */;
+			buildPhases = (
+				6F9A308B1609941D00BE0CAF /* Sources */,
+				6F9A308C1609941D00BE0CAF /* Frameworks */,
+				6F9A308D1609941D00BE0CAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Limo;
+			productName = Limo;
+			productReference = 6F9A308F1609941D00BE0CAF /* Limo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F9A30861609941D00BE0CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 6F9A30891609941D00BE0CAF /* Build configuration list for PBXProject "Limo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F9A30841609941D00BE0CAF;
+			productRefGroup = 6F9A30901609941D00BE0CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F9A308E1609941D00BE0CAF /* Limo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F9A308D1609941D00BE0CAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9A309E1609941D00BE0CAF /* InfoPlist.strings in Resources */,
+				6F9A30AA1609941D00BE0CAF /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F9A308B1609941D00BE0CAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F9A30A01609941D00BE0CAF /* main.m in Sources */,
+				6F9A30A41609941D00BE0CAF /* AppDelegate.m in Sources */,
+				6F9A30A71609941D00BE0CAF /* ViewController.m in Sources */,
+				6F9A30B61609947800BE0CAF /* BTstackManager.m in Sources */,
+				6F9A30B9160996B900BE0CAF /* Limo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F9A309C1609941D00BE0CAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9A309D1609941D00BE0CAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F9A30A81609941D00BE0CAF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F9A30A91609941D00BE0CAF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F9A30AB1609941D00BE0CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6F9A30AC1609941D00BE0CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F9A30AE1609941D00BE0CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Limo/Limo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../btstack/include,
+					../btstack,
+				);
+				INFOPLIST_FILE = "Limo/Limo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F9A30AF1609941D00BE0CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Limo/Limo-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../btstack/include,
+					../btstack,
+				);
+				INFOPLIST_FILE = "Limo/Limo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F9A30891609941D00BE0CAF /* Build configuration list for PBXProject "Limo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9A30AB1609941D00BE0CAF /* Debug */,
+				6F9A30AC1609941D00BE0CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F9A30AD1609941D00BE0CAF /* Build configuration list for PBXNativeTarget "Limo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F9A30AE1609941D00BE0CAF /* Debug */,
+				6F9A30AF1609941D00BE0CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F9A30861609941D00BE0CAF /* Project object */;
+}
