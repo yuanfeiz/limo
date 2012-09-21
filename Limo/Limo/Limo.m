@@ -106,6 +106,13 @@
     [manager sendRFCOMMPacket:command withLength:1];
 }
 
+- (void)dealloc {
+    [manager closeRFCOMMConnection];
+    [manager deactivate];
+    
+    [super dealloc];
+}
+
 
 
 @end
