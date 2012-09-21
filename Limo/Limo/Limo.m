@@ -16,26 +16,12 @@
     manager = [BTstackManager sharedInstance];
     [manager setDelegate:self];
     
-//    deviceAddress[0] = (uint8_t)0xec;
-//    deviceAddress[1] = (uint8_t)0x55;
-//    deviceAddress[2] = (uint8_t)0xf9;
-//    deviceAddress[3] = (uint8_t)0xd5;
-//    deviceAddress[4] = (uint8_t)0x8b;
-//    deviceAddress[5] = (uint8_t)0x5d;
-    
     deviceAddress[0] = (uint8_t)0x00;
     deviceAddress[1] = (uint8_t)0x10;
     deviceAddress[2] = (uint8_t)0x04;
     deviceAddress[3] = (uint8_t)0x08;
     deviceAddress[4] = (uint8_t)0x00;
     deviceAddress[5] = (uint8_t)0x10;
-    
-//    deviceAddress[0] = (uint8_t)0x00;
-//    deviceAddress[1] = (uint8_t)0x00;
-//    deviceAddress[2] = (uint8_t)0x00;
-//    deviceAddress[3] = (uint8_t)0x00;
-//    deviceAddress[4] = (uint8_t)0x00;
-//    deviceAddress[5] = (uint8_t)0x11;
     
     return self;
 }
@@ -66,26 +52,60 @@
 
 - (void)btDeviceConnected {
     NSLog(@"BT deviceConnected");
-
-    [self checkStatus];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kLimoConnected object:self];
 }
 
 - (void)btDeviceDisconnected {
     NSLog(@"btDeviceDisconnected");
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kLimoDisconnected object:self];
 }
 
 - (void)btReceivedD1:(uint8_t)d1 andD2:(uint8_t)d2 fromSensor:(int)sn {
     
 }
 
-- (void)checkStatus {
+- (void)stopMove {
+    uint8_t command[1];
+    
+    command[0] = 00;
+    
+    [manager sendRFCOMMPacket:command withLength:1];
+}
+
+- (void)moveForward {
+    uint8_t command[1];
+    
+    command[0] = 01;
+    
+    [manager sendRFCOMMPacket:command withLength:1];
+}
+
+- (void)moveBackward {
     uint8_t command[1];
     
     command[0] = 02;
-//    command[1] = 'T';
     
     [manager sendRFCOMMPacket:command withLength:1];
-    NSLog(@"RUN!!");
 }
+
+- (void)moveRight {
+    uint8_t command[1];
+    
+    command[0] = 04;
+    
+    [manager sendRFCOMMPacket:command withLength:1];
+}
+
+- (void)moveLeft {
+    uint8_t command[1];
+    
+    command[0] = 03;
+    
+    [manager sendRFCOMMPacket:command withLength:1];
+}
+
+
 
 @end

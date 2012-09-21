@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "BTstackManager.h"
 
+static NSString *kLimoConnected = @"kLimoConnected";
+static NSString *kLimoDisconnected = @"kLimoDisconnected";
+
 @interface Limo : NSObject<BTstackManagerDelegate> {
     
     BTstackManager *manager;
@@ -18,5 +21,12 @@
 }
 
 - (void)connect;
+
+
+- (void)stopMove;
+- (void)moveForward;
+- (void)moveBackward;
+- (void)moveRight;
+- (void)moveLeft;
 
 @end
