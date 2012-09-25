@@ -69,12 +69,6 @@
 }
 
 - (IBAction)cancelControlCommand:(UIButton *)button forEvent:(UIEvent *)event {
-//    switch (button.tag) {
-//        case kTLimoControlStopMove:
-//            break;        
-//        default:
-//            break;
-//    }
     [self.limo stopMove];
     [self.joypadImageView setImage:[UIImage imageNamed:@"nav_inactive.png"]];
     
