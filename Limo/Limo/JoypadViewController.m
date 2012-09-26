@@ -6,16 +6,16 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JoypadViewController.h"
+#import "AppDelegate.h"
 #import "Limo.h"
 
-@interface ViewController ()
+@interface JoypadViewController ()
 
 @end
 
-@implementation ViewController
+@implementation JoypadViewController
 
-@synthesize limo;
 @synthesize btStatusLabel;
 @synthesize joypadImageView;
 
@@ -23,9 +23,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
-    self.limo = [[Limo alloc] init];
-    [self.limo connect];
+
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    limo = appDelegate.limo;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBTStatusLabel:) name:kLimoConnected object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBTStatusLabel:) name:kLimoDisconnected object:nil];
@@ -45,22 +45,21 @@
 }
 
 - (IBAction)sendControlCommand:(UIButton *)button forEvent:(UIEvent *)event {
-    NSLog(@"%d, %@", button.tag, event);
     switch (button.tag) {
         case kTLimoControlMoveForward:
-            [self.limo moveForward];
+            [limo moveForward];
             [self.joypadImageView setImage:[UIImage imageNamed:@"nav_up"]];
             break;
         case kTLimoControlMoveBackward:
-            [self.limo moveBackward];
+            [limo moveBackward];
             [self.joypadImageView setImage:[UIImage imageNamed:@"nav_down"]];
             break;
         case kTLimoControlMoveRight:
-            [self.limo moveRight];
+            [limo moveRight];
             [self.joypadImageView setImage:[UIImage imageNamed:@"nav_right"]];
             break;
         case kTLimoControlMoveLeft:
-            [self.limo moveLeft];
+            [limo moveLeft];
             [self.joypadImageView setImage:[UIImage imageNamed:@"nav_left"]];
             break;
         default:
@@ -69,9 +68,13 @@
 }
 
 - (IBAction)cancelControlCommand:(UIButton *)button forEvent:(UIEvent *)event {
-    [self.limo stopMove];
+    [limo stopMove];
     [self.joypadImageView setImage:[UIImage imageNamed:@"nav_inactive.png"]];
     
+}
+
+- (IBAction)dismissMe:(UISwipeGestureRecognizer *)sender {
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 
@@ -87,7 +90,6 @@
 }
 
 - (void)dealloc {
-    [self.limo release];
     [btStatusLabel release];
     [joypadImageView release];
     [super dealloc];

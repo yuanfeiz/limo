@@ -21,7 +21,7 @@
     deviceAddress[2] = (uint8_t)0x04;
     deviceAddress[3] = (uint8_t)0x08;
     deviceAddress[4] = (uint8_t)0x00;
-    deviceAddress[5] = (uint8_t)0x10;
+    deviceAddress[5] = (uint8_t)0x27;
     
     return self;
 }

@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F617CED161160940036C0C7 /* ModeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F617CEB161160940036C0C7 /* ModeSelectionViewController.m */; };
+		6F617CEE161160940036C0C7 /* ModeSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F617CEC161160940036C0C7 /* ModeSelectionViewController.xib */; };
+		6F617CF21611670D0036C0C7 /* GravityControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F617CF01611670D0036C0C7 /* GravityControlViewController.m */; };
+		6F617CF51611683D0036C0C7 /* GravityControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F617CF41611683C0036C0C7 /* GravityControlViewController.xib */; };
 		6F9A30941609941D00BE0CAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30931609941D00BE0CAF /* UIKit.framework */; };
 		6F9A30961609941D00BE0CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30951609941D00BE0CAF /* Foundation.framework */; };
 		6F9A30981609941D00BE0CAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30971609941D00BE0CAF /* CoreGraphics.framework */; };
 		6F9A309E1609941D00BE0CAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A309C1609941D00BE0CAF /* InfoPlist.strings */; };
 		6F9A30A01609941D00BE0CAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A309F1609941D00BE0CAF /* main.m */; };
 		6F9A30A41609941D00BE0CAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30A31609941D00BE0CAF /* AppDelegate.m */; };
-		6F9A30A71609941D00BE0CAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30A61609941D00BE0CAF /* ViewController.m */; };
-		6F9A30AA1609941D00BE0CAF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A30A81609941D00BE0CAF /* ViewController.xib */; };
+		6F9A30A71609941D00BE0CAF /* JoypadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30A61609941D00BE0CAF /* JoypadViewController.m */; };
+		6F9A30AA1609941D00BE0CAF /* JoypadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9A30A81609941D00BE0CAF /* JoypadViewController.xib */; };
 		6F9A30B11609945800BE0CAF /* libBTstack.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F9A30B01609945800BE0CAF /* libBTstack.dylib */; };
 		6F9A30B61609947800BE0CAF /* BTstackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30B51609947800BE0CAF /* BTstackManager.m */; };
 		6F9A30B9160996B900BE0CAF /* Limo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9A30B8160996B900BE0CAF /* Limo.m */; };
@@ -87,6 +91,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F617CEA161160940036C0C7 /* ModeSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectionViewController.h; sourceTree = "<group>"; };
+		6F617CEB161160940036C0C7 /* ModeSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectionViewController.m; sourceTree = "<group>"; };
+		6F617CEC161160940036C0C7 /* ModeSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeSelectionViewController.xib; sourceTree = "<group>"; };
+		6F617CEF1611670D0036C0C7 /* GravityControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityControlViewController.h; sourceTree = "<group>"; };
+		6F617CF01611670D0036C0C7 /* GravityControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityControlViewController.m; sourceTree = "<group>"; };
+		6F617CF41611683C0036C0C7 /* GravityControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GravityControlViewController.xib; sourceTree = "<group>"; };
 		6F9A308F1609941D00BE0CAF /* Limo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Limo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9A30931609941D00BE0CAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6F9A30951609941D00BE0CAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,9 +107,9 @@
 		6F9A30A11609941D00BE0CAF /* Limo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Limo-Prefix.pch"; sourceTree = "<group>"; };
 		6F9A30A21609941D00BE0CAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6F9A30A31609941D00BE0CAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6F9A30A51609941D00BE0CAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6F9A30A61609941D00BE0CAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6F9A30A91609941D00BE0CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6F9A30A51609941D00BE0CAF /* JoypadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoypadViewController.h; sourceTree = "<group>"; };
+		6F9A30A61609941D00BE0CAF /* JoypadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoypadViewController.m; sourceTree = "<group>"; };
+		6F9A30A91609941D00BE0CAF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JoypadViewController.xib; sourceTree = "<group>"; };
 		6F9A30B01609945800BE0CAF /* libBTstack.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libBTstack.dylib; sourceTree = "<group>"; };
 		6F9A30B41609947800BE0CAF /* BTstackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTstackManager.h; sourceTree = "<group>"; };
 		6F9A30B51609947800BE0CAF /* BTstackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTstackManager.m; sourceTree = "<group>"; };
@@ -230,9 +240,15 @@
 				6F9A30B51609947800BE0CAF /* BTstackManager.m */,
 				6F9A30A21609941D00BE0CAF /* AppDelegate.h */,
 				6F9A30A31609941D00BE0CAF /* AppDelegate.m */,
-				6F9A30A51609941D00BE0CAF /* ViewController.h */,
-				6F9A30A61609941D00BE0CAF /* ViewController.m */,
-				6F9A30A81609941D00BE0CAF /* ViewController.xib */,
+				6F9A30A51609941D00BE0CAF /* JoypadViewController.h */,
+				6F9A30A61609941D00BE0CAF /* JoypadViewController.m */,
+				6F9A30A81609941D00BE0CAF /* JoypadViewController.xib */,
+				6F617CEF1611670D0036C0C7 /* GravityControlViewController.h */,
+				6F617CF01611670D0036C0C7 /* GravityControlViewController.m */,
+				6F617CF41611683C0036C0C7 /* GravityControlViewController.xib */,
+				6F617CEA161160940036C0C7 /* ModeSelectionViewController.h */,
+				6F617CEB161160940036C0C7 /* ModeSelectionViewController.m */,
+				6F617CEC161160940036C0C7 /* ModeSelectionViewController.xib */,
 				6F9A309A1609941D00BE0CAF /* Supporting Files */,
 			);
 			path = Limo;
@@ -369,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F9A309E1609941D00BE0CAF /* InfoPlist.strings in Resources */,
-				6F9A30AA1609941D00BE0CAF /* ViewController.xib in Resources */,
+				6F9A30AA1609941D00BE0CAF /* JoypadViewController.xib in Resources */,
 				6F9A310B160BFFEF00BE0CAF /* action_icon.png in Resources */,
 				6F9A310C160BFFEF00BE0CAF /* action_icon@2x.png in Resources */,
 				6F9A310D160BFFEF00BE0CAF /* analog_base.png in Resources */,
@@ -436,6 +452,8 @@
 				6F9A314D160C003000BE0CAF /* Default@2x.png in Resources */,
 				6F9A314F160C003A00BE0CAF /* Icon@2x.png in Resources */,
 				6F9A3151160C004E00BE0CAF /* Icon.png in Resources */,
+				6F617CEE161160940036C0C7 /* ModeSelectionViewController.xib in Resources */,
+				6F617CF51611683D0036C0C7 /* GravityControlViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,9 +466,11 @@
 			files = (
 				6F9A30A01609941D00BE0CAF /* main.m in Sources */,
 				6F9A30A41609941D00BE0CAF /* AppDelegate.m in Sources */,
-				6F9A30A71609941D00BE0CAF /* ViewController.m in Sources */,
+				6F9A30A71609941D00BE0CAF /* JoypadViewController.m in Sources */,
 				6F9A30B61609947800BE0CAF /* BTstackManager.m in Sources */,
 				6F9A30B9160996B900BE0CAF /* Limo.m in Sources */,
+				6F617CED161160940036C0C7 /* ModeSelectionViewController.m in Sources */,
+				6F617CF21611670D0036C0C7 /* GravityControlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,12 +485,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6F9A30A81609941D00BE0CAF /* ViewController.xib */ = {
+		6F9A30A81609941D00BE0CAF /* JoypadViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6F9A30A91609941D00BE0CAF /* en */,
 			);
-			name = ViewController.xib;
+			name = JoypadViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -576,6 +596,7 @@
 				6F9A30AF1609941D00BE0CAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

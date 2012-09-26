@@ -15,16 +15,15 @@
 #define kTLimoControlMoveLeft       103
 #define kTLimoControlMoveRight      104
 
-@interface ViewController : UIViewController {
-    int tapCount;
+@interface JoypadViewController : UIViewController {
+    Limo *limo;
 }
-
-@property (retain, nonatomic) Limo *limo;
 
 @property (retain, nonatomic) IBOutlet UILabel *btStatusLabel;
 @property (retain, nonatomic) IBOutlet UIImageView *joypadImageView;
 
 - (IBAction)sendControlCommand:(id)sender forEvent:(UIEvent *)event;
 - (IBAction)cancelControlCommand:(id)sender forEvent:(UIEvent *)event;
+- (IBAction)dismissMe:(UISwipeGestureRecognizer *)sender;
 
 @end

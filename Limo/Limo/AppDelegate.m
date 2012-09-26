@@ -8,15 +8,17 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "ModeSelectionViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize limo;
 
 - (void)dealloc
 {
+    [self.limo release];
     [_window release];
     [_viewController release];
     [super dealloc];
@@ -26,9 +28,14 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.viewController = [[[ModeSelectionViewController alloc] initWithNibName:@"ModeSelectionViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    // 启动小车
+    self.limo = [[Limo alloc] init];
+    [limo connect];
+    
     return YES;
 }
 
