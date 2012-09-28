@@ -7,6 +7,8 @@
 //
 
 #import "GravityControlViewController.h"
+#import "Limo.h"
+#import "AppDelegate.h"
 
 #define kAccelerometerFrequency 50
 #define kFilteringFactor 0.1
@@ -45,6 +47,11 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    limo = appDelegate.limo;
+    
+    
     [self configureAccelerometer];
 }
 
@@ -63,35 +70,50 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
+#define kAccelXMoveForwardThreshold -0.8
+#define kAccelXMoveBackwardThreshold -0.8
+#define kAccelYMoveLeftThreshold 0.20
+#define kAccelYMoveRightThreshold -0.20
+
 - (void)accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration {
     accelX = (acceleration.x * kFilteringFactor) + (accelX * (1.0 - kFilteringFactor));
     accelY = (acceleration.y * kFilteringFactor) + (accelY * (1.0 - kFilteringFactor));
     accelZ = (acceleration.z * kFilteringFactor) + (accelZ * (1.0 - kFilteringFactor));
     
     NSLog(@"%f, %f, %f", accelX , accelY, accelZ);
+    
+    if (accelX > kAccelXMoveForwardThreshold)
+        [self sendControlCommand:kTLimoControlMoveForward];
+    else if (accelX < kAccelXMoveBackwardThreshold)
+        [self sendControlCommand:kTLimoControlMoveBackward];
+    
+    if (accelY > kAccelYMoveLeftThreshold)
+        [self sendControlCommand:kTLimoControlMoveLeft];
+    else if (accelY < kAccelYMoveRightThreshold)
+        [self sendControlCommand:kTLimoControlMoveRight];
 }
 
-//- (IBAction)sendControlCommand {
-//    switch (1) {
-//        case kTLimoControlMoveForward:
-//            [limo moveForward];
-//            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_up"]];
-//            break;
-//        case kTLimoControlMoveBackward:
-//            [limo moveBackward];
-//            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_down"]];
-//            break;
-//        case kTLimoControlMoveRight:
-//            [limo moveRight];
-//            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_right"]];
-//            break;
-//        case kTLimoControlMoveLeft:
-//            [limo moveLeft];
-//            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_left"]];
-//            break;
-//        default:
-//            break;
-//    }
-//}
+- (IBAction)sendControlCommand:(int)command {
+    switch (command) {
+        case kTLimoControlMoveForward:
+            [limo moveForward];
+            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_up"]];
+            break;
+        case kTLimoControlMoveBackward:
+            [limo moveBackward];
+            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_down"]];
+            break;
+        case kTLimoControlMoveRight:
+            [limo moveRight];
+            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_right"]];
+            break;
+        case kTLimoControlMoveLeft:
+            [limo moveLeft];
+            [self.joypadImageView setImage:[UIImage imageNamed:@"nav_left"]];
+            break;
+        default:
+            break;
+    }
+}
 
 @end

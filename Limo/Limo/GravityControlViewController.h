@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GravityControlViewController : UIViewController<UIAccelerometerDelegate>
+
+@class Limo;
+@interface GravityControlViewController : UIViewController<UIAccelerometerDelegate> {
+    Limo *limo;
+}
 
 @property (retain, nonatomic) IBOutlet UIImageView *joypadImageView;
 
