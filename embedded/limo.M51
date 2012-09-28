@@ -1,0 +1,168 @@
+BL51 BANKED LINKER/LOCATER V5.12                                                        09/24/2012  19:44:06  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V5.12, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE STARTUP.obj, main.obj TO limo RAMSIZE (256)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  STARTUP.obj (?C_STARTUP)
+  main.obj (MAIN)
+
+
+LINK MAP OF MODULE:  limo (?C_STARTUP)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0001H     UNIT         ?DT?MAIN
+            IDATA   0009H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+            CODE    0003H     006BH     UNIT         ?PR?MAIN?MAIN
+            CODE    006EH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   limo (?C_STARTUP)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?MAIN
+
+
+
+SYMBOL TABLE OF MODULE:  limo (?C_STARTUP)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        ?C_STARTUP
+  C:006EH         SEGMENT       ?C_C51STARTUP
+  I:0009H         SEGMENT       ?STACK
+  C:0000H         PUBLIC        ?C_STARTUP
+  D:00E0H         SYMBOL        ACC
+  D:00F0H         SYMBOL        B
+  D:0083H         SYMBOL        DPH
+  D:0082H         SYMBOL        DPL
+  N:0000H         SYMBOL        IBPSTACK
+  N:0100H         SYMBOL        IBPSTACKTOP
+  N:0080H         SYMBOL        IDATALEN
+  C:0071H         SYMBOL        IDATALOOP
+BL51 BANKED LINKER/LOCATER V5.12                                                      09/24/2012  19:44:06  PAGE 2
+
+
+  N:0000H         SYMBOL        PBPSTACK
+  N:0000H         SYMBOL        PBPSTACKTOP
+  N:0000H         SYMBOL        PDATALEN
+  N:0000H         SYMBOL        PDATASTART
+  N:0000H         SYMBOL        PPAGE
+  N:0000H         SYMBOL        PPAGEENABLE
+  D:00A0H         SYMBOL        PPAGE_SFR
+  D:0081H         SYMBOL        SP
+  C:006EH         SYMBOL        STARTUP1
+  N:0000H         SYMBOL        XBPSTACK
+  N:0000H         SYMBOL        XBPSTACKTOP
+  N:0000H         SYMBOL        XDATALEN
+  N:0000H         SYMBOL        XDATASTART
+  C:0000H         LINE#         92
+  C:006EH         LINE#         99
+  C:0070H         LINE#         100
+  C:0071H         LINE#         101
+  C:0072H         LINE#         102
+  C:0074H         LINE#         151
+  C:0077H         LINE#         155
+  -------         ENDMOD        ?C_STARTUP
+
+  -------         MODULE        MAIN
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00B0H         PUBLIC        P3
+  D:00A8H         PUBLIC        IE
+  B:0098H.0       PUBLIC        RI
+  B:0098H.1       PUBLIC        TI
+  C:0003H         PUBLIC        main
+  D:0099H         PUBLIC        SBUF
+  D:0087H         PUBLIC        PCON
+  D:0098H         PUBLIC        SCON
+  D:0089H         PUBLIC        TMOD
+  B:00B0H.4       PUBLIC        is_forward
+  D:0008H         PUBLIC        ch
+  D:008DH         PUBLIC        TH1
+  D:008BH         PUBLIC        TL1
+  B:0088H.6       PUBLIC        TR1
+  B:00B0H.2       PUBLIC        is_right
+  B:00B0H.5       PUBLIC        move_disable
+  B:00B0H.3       PUBLIC        dir_disable
+  -------         PROC          MAIN
+  C:0003H         LINE#         11
+  C:0003H         LINE#         12
+  C:0003H         LINE#         14
+  C:0005H         LINE#         15
+  C:0007H         LINE#         16
+  C:0009H         LINE#         17
+  C:000BH         LINE#         19
+  C:000EH         LINE#         20
+  C:0011H         LINE#         21
+  C:0014H         LINE#         22
+  C:0017H         LINE#         23
+  C:001AH         LINE#         24
+  C:001DH         LINE#         25
+  C:001FH         LINE#         26
+  C:0021H         LINE#         34
+BL51 BANKED LINKER/LOCATER V5.12                                                      09/24/2012  19:44:06  PAGE 3
+
+
+  C:0021H         LINE#         35
+  C:0021H         LINE#         37
+  C:0024H         LINE#         38
+  C:0024H         LINE#         39
+  C:0026H         LINE#         40
+  C:0029H         LINE#         41
+  C:002BH         LINE#         42
+  C:0040H         LINE#         43
+  C:0040H         LINE#         90
+  C:0040H         LINE#         91
+  C:0042H         LINE#         92
+  C:0044H         LINE#         93
+  C:0046H         LINE#         94
+  C:0048H         LINE#         96
+  C:0048H         LINE#         97
+  C:004AH         LINE#         98
+  C:004CH         LINE#         99
+  C:004EH         LINE#         100
+  C:0050H         LINE#         102
+  C:0050H         LINE#         103
+  C:0052H         LINE#         104
+  C:0054H         LINE#         105
+  C:0056H         LINE#         106
+  C:0058H         LINE#         108
+  C:0058H         LINE#         109
+  C:005AH         LINE#         110
+  C:005CH         LINE#         111
+  C:005EH         LINE#         112
+  C:0060H         LINE#         114
+  C:0060H         LINE#         115
+  C:0060H         LINE#         116
+  C:0060H         LINE#         117
+  C:0062H         LINE#         119
+  C:0062H         LINE#         120
+  C:0064H         LINE#         121
+  C:0066H         LINE#         122
+  C:0068H         LINE#         123
+  C:006AH         LINE#         124
+  C:006CH         LINE#         125
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        MAIN
+
+Program Size: data=10.0 xdata=0 code=122
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)
