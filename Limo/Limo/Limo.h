@@ -23,10 +23,11 @@ static NSString *kLimoDisconnected = @"kLimoDisconnected";
 - (void)connect;
 
 
-- (void)stopMove;
+- (void)resetDirection;
 - (void)moveForward;
 - (void)moveBackward;
 - (void)moveRight;
 - (void)moveLeft;
+- (void)stopMove;
 
 @end

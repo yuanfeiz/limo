@@ -66,10 +66,10 @@
     
 }
 
-- (void)stopMove {
+- (void)resetDirection {
     uint8_t command[1];
     
-    command[0] = 00;
+    command[0] = 05;
     
     [manager sendRFCOMMPacket:command withLength:1];
 }
@@ -102,6 +102,14 @@
     uint8_t command[1];
     
     command[0] = 03;
+    
+    [manager sendRFCOMMPacket:command withLength:1];
+}
+
+- (void)stopMove {
+    uint8_t command[1];
+    
+    command[0] = 00;
     
     [manager sendRFCOMMPacket:command withLength:1];
 }

@@ -12,11 +12,14 @@
 
 #define kAccelerometerFrequency 50
 #define kFilteringFactor 0.1
-#define kTLimoControlStopMove       100
+
+#define kTLimoControlResetDirection 100
 #define kTLimoControlMoveForward    101
 #define kTLimoControlMoveBackward   102
 #define kTLimoControlMoveLeft       103
 #define kTLimoControlMoveRight      104
+#define kTLimoControlStopMove       105
+
 
 @interface GravityControlViewController () {
     UIAccelerationValue accelX, accelY, accelZ;
@@ -32,6 +35,16 @@
     theAccelerometer.updateInterval = 1 / kAccelerometerFrequency;
     
     theAccelerometer.delegate = self;
+}
+
+- (IBAction)stopLimo:(id)sender {
+    UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
+    if (accelerometer.delegate == nil) {
+        accelerometer.delegate = self;
+    } else
+        accelerometer.delegate = nil;
+    
+    [limo stopMove];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -66,7 +79,7 @@
     return UIInterfaceOrientationIsLandscape(interfaceOrientation);
 }
 
-- (IBAction)dismissMe:(UIGestureRecognizer *)sender {
+- (IBAction)dismissMe:(UIGestureRecognizer *)sender {    
     [self dismissModalViewControllerAnimated:YES];
 }
 
@@ -91,6 +104,8 @@
         [self sendControlCommand:kTLimoControlMoveLeft];
     else if (accelY < kAccelYMoveRightThreshold)
         [self sendControlCommand:kTLimoControlMoveRight];
+    else
+        [self sendControlCommand:kTLimoControlResetDirection];
 }
 
 - (IBAction)sendControlCommand:(int)command {
@@ -110,6 +125,9 @@
         case kTLimoControlMoveLeft:
             [limo moveLeft];
             [self.joypadImageView setImage:[UIImage imageNamed:@"nav_left"]];
+            break;
+        case kTLimoControlResetDirection:
+            [limo resetDirection];
             break;
         default:
             break;

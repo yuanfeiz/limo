@@ -74,6 +74,7 @@
 }
 
 - (IBAction)dismissMe:(UISwipeGestureRecognizer *)sender {
+    [limo stopMove];
     [self dismissModalViewControllerAnimated:YES];
 }
 

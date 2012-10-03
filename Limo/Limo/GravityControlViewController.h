@@ -19,5 +19,6 @@
 - (IBAction)dismissMe:(id)sender;
 
 - (void)configureAccelerometer;
+- (IBAction)stopLimo:(id)sender;
 
 @end
